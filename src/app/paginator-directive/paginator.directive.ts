@@ -165,8 +165,6 @@ export class PaginatorDirective implements AfterViewInit {
           }
 
           this.ren.listen(linkBtn, 'click', () => {
-            console.log('here', index);
-
             this.switchPage(index);
           });
         }
